@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div id="table">
+</div>
+
+
+
+<style>
+
+    .table {
+        width: 100%;
+    }
+
+    thead {
+        background-color: rebeccapurple;
+        color: aliceblue;
+    }
+
+    th {
+        cursor: pointer;
+    }
+
+    tr:nth-child(even) {
+        background-color: #c9a3f5;
+    }
+
+    .selectors {
+        margin-top: 1rem;
+        background: rebeccapurple;
+        display: flex;
+        justify-content: center;
+        height: 2rem;
+    }
+    .pagination {
+        background-color: rebeccapurple;
+        padding: 10px;
+    }
+    .pagination button {
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 20px;
+        background-color: #4d2773;
+        color: aliceblue;
+        margin-right: 5px;
+    }
+    .pagination button.active {
+        background-color: #3c1f5a;
+    }
+
+    .pagination button:hover {
+        box-shadow: 0 0 3px #b884f3;
+    }
+
+</style>
+
+<script src="main.js"></script>
+</body>
+</html>
